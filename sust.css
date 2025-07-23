@@ -1,0 +1,86 @@
+/* reset some default styles*/
+*{
+   margin:0;
+   padding:0;
+   box-sizing: border-box;
+
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color:white;
+    color:darkslategray;
+}
+.container {
+    width:90%;
+    max-width:1200px;
+    margin: auto;
+    padding:20px;
+}
+/*header*/
+  header {
+    background-color: rgb(64, 64, 212);
+    color:blanchedalmond;
+    padding :20px 0;
+}
+ header h1 {
+    text-align :center;
+    font-size:32px;
+ }
+  nav ul {
+    display :flex;
+    justify-content: center;
+    list-style:none;
+    margin-top: 10px;
+ }
+ nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+  background-image: url('https://i.ibb.co/9nZWtRt/sust-campus.jpg'); /* Optional image */
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+  background-color: #005599;
+}
+
+.hero h2 {
+  font-size: 40px;
+}
+
+.hero p {
+  font-size: 20px;
+}
+
+/* About Section */
+.about {
+  background-color: white;
+  padding: 40px 20px;
+  margin-top: 20px;
+}
+
+.about h3 {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+/* Footer */
+footer {
+  background-color: #003366;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 40px;
+}
+
+
